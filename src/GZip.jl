@@ -1,6 +1,3 @@
-## gzip file io ##
-__precompile__(true)
-
 module GZip
 using Compat
 import Base: show, fd, close, flush, truncate, seek,
